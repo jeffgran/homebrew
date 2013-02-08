@@ -5,7 +5,7 @@ class Hbase < Formula
   homepage 'http://hbase.apache.org'
   sha1 'a77f4b70bddbf8555bfe11e4db197d3cbb0c20d1'
 
-  depends_on 'hadoop'
+  #depends_on 'hadoop'
 
   def shim_script target
     <<-EOS.undent
