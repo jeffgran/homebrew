@@ -27,3 +27,4 @@ class Hadoop < Formula
   def test
     system "hadoop", "version"
   end
+end
