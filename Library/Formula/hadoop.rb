@@ -3,7 +3,7 @@ require 'formula'
 class Hadoop < Formula
   homepage 'http://hadoop.apache.org/common/'
   url 'http://www.apache.org/dyn/closer.cgi?path=hadoop/core/hadoop-2.0.2-alpha/hadoop-2.0.2-alpha.tar.gz'
-  sha1 '233db02749dac6bed3331d7b871d793cb91f99ba'
+  sha1 '44206b2d4b657a8efa47dbe78725c58233e17a9d'
   version '2.0.1'
   
   depends_on 'protobuf'
@@ -27,4 +27,3 @@ class Hadoop < Formula
   def test
     system "hadoop", "version"
   end
-end
